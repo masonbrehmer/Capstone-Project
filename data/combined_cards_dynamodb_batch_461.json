@@ -1,0 +1,1279 @@
+{
+  "sports-card-capstone-card-data": [
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "0d933cbe-d0b2-4659-aa19-37ddf3ca812d"
+          },
+          "player": {
+            "S": "Cooper Flagg"
+          },
+          "card_name": {
+            "S": "Cooper Flagg 2025 Topps #RTS-1 Rise to Stardom"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "7.55"
+          },
+          "number_of_sales": {
+            "N": "33"
+          },
+          "total_sales_amount": {
+            "N": "244.64"
+          },
+          "price_change_percent": {
+            "N": "17.05"
+          },
+          "average_price": {
+            "N": "7.41"
+          },
+          "volume_change_percent": {
+            "N": "50.00"
+          },
+          "price_change_amount": {
+            "N": "1.10"
+          },
+          "max_sale_price": {
+            "N": "24.00"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "9731e9a2-3f70-4434-8632-3180f59acea3"
+          },
+          "player": {
+            "S": "Cooper Kupp"
+          },
+          "card_name": {
+            "S": "Cooper Kupp 2017 Prizm #203 Silver"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "12.76"
+          },
+          "number_of_sales": {
+            "N": "10"
+          },
+          "total_sales_amount": {
+            "N": "119.64"
+          },
+          "price_change_percent": {
+            "N": "17.04"
+          },
+          "average_price": {
+            "N": "11.96"
+          },
+          "volume_change_percent": {
+            "N": "100.00"
+          },
+          "price_change_amount": {
+            "N": "1.86"
+          },
+          "max_sale_price": {
+            "N": "24.50"
+          },
+          "min_sale_price": {
+            "N": "6.53"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "bf8ad562-8ce4-42bc-b46d-f18c98000b90"
+          },
+          "player": {
+            "S": "Kon Knueppel"
+          },
+          "card_name": {
+            "S": "Kon Knueppel 2025 Topps Chrome #RR-4 Radiating Rookies"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "600.00"
+          },
+          "number_of_sales": {
+            "N": "7"
+          },
+          "total_sales_amount": {
+            "N": "3669.00"
+          },
+          "price_change_percent": {
+            "N": "17.04"
+          },
+          "average_price": {
+            "N": "524.14"
+          },
+          "volume_change_percent": {
+            "N": "-56.25"
+          },
+          "price_change_amount": {
+            "N": "87.33"
+          },
+          "max_sale_price": {
+            "N": "600.00"
+          },
+          "min_sale_price": {
+            "N": "433.00"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "8a060d06-ebd7-4e4f-8714-0746d2a52b46"
+          },
+          "player": {
+            "S": "Tyler Shough"
+          },
+          "card_name": {
+            "S": "Tyler Shough 2025 Mosaic #8 Kaleidoscopic"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "110.00"
+          },
+          "number_of_sales": {
+            "N": "5"
+          },
+          "total_sales_amount": {
+            "N": "493.00"
+          },
+          "price_change_percent": {
+            "N": "17.02"
+          },
+          "average_price": {
+            "N": "98.60"
+          },
+          "volume_change_percent": {
+            "N": "-44.44"
+          },
+          "price_change_amount": {
+            "N": "16.00"
+          },
+          "max_sale_price": {
+            "N": "110.00"
+          },
+          "min_sale_price": {
+            "N": "90.00"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "3f910ac7-ea9e-450c-bd5f-f53ac4c4eb86"
+          },
+          "player": {
+            "S": "Victor Wembanyama"
+          },
+          "card_name": {
+            "S": "Victor Wembanyama 2023 Hoops Premium Stock #12 Sheesh"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "4.67"
+          },
+          "number_of_sales": {
+            "N": "15"
+          },
+          "total_sales_amount": {
+            "N": "79.94"
+          },
+          "price_change_percent": {
+            "N": "17.02"
+          },
+          "average_price": {
+            "N": "5.33"
+          },
+          "volume_change_percent": {
+            "N": "87.50"
+          },
+          "price_change_amount": {
+            "N": "0.68"
+          },
+          "max_sale_price": {
+            "N": "20.00"
+          },
+          "min_sale_price": {
+            "N": "1.51"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "bcaeb02a-3750-4c4f-9433-be20ef29114f"
+          },
+          "player": {
+            "S": "Caleb Williams"
+          },
+          "card_name": {
+            "S": "Caleb Williams 2024 Optic #201 Stars"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "39.00"
+          },
+          "number_of_sales": {
+            "N": "9"
+          },
+          "total_sales_amount": {
+            "N": "320.24"
+          },
+          "price_change_percent": {
+            "N": "17.01"
+          },
+          "average_price": {
+            "N": "35.58"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "5.67"
+          },
+          "max_sale_price": {
+            "N": "40.00"
+          },
+          "min_sale_price": {
+            "N": "24.25"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "5796fcda-5fee-4f81-889a-e273a88ca2a3"
+          },
+          "player": {
+            "S": "Jaxon Smith-Njigba"
+          },
+          "card_name": {
+            "S": "Jaxon Smith-Njigba 2023 Select #87 Concourse Black & Red Die-Cut"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "4.25"
+          },
+          "number_of_sales": {
+            "N": "14"
+          },
+          "total_sales_amount": {
+            "N": "59.22"
+          },
+          "price_change_percent": {
+            "N": "16.97"
+          },
+          "average_price": {
+            "N": "4.23"
+          },
+          "volume_change_percent": {
+            "N": "16.67"
+          },
+          "price_change_amount": {
+            "N": "0.62"
+          },
+          "max_sale_price": {
+            "N": "7.00"
+          },
+          "min_sale_price": {
+            "N": "2.02"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "7e40fafa-59ef-4064-ab12-49f451eba789"
+          },
+          "player": {
+            "S": "Cooper Flagg"
+          },
+          "card_name": {
+            "S": "Cooper Flagg 2025 Topps Chrome #TT-16 Tall Tales"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "20.04"
+          },
+          "number_of_sales": {
+            "N": "71"
+          },
+          "total_sales_amount": {
+            "N": "1234.13"
+          },
+          "price_change_percent": {
+            "N": "16.93"
+          },
+          "average_price": {
+            "N": "17.38"
+          },
+          "volume_change_percent": {
+            "N": "-33.02"
+          },
+          "price_change_amount": {
+            "N": "2.90"
+          },
+          "max_sale_price": {
+            "N": "26.99"
+          },
+          "min_sale_price": {
+            "N": "6.50"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "4fc88329-6cbd-4b69-97b6-b60c607e359e"
+          },
+          "player": {
+            "S": "Magic Johnson"
+          },
+          "card_name": {
+            "S": "Magic Johnson 1987 Fleer #56 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "10.67"
+          },
+          "number_of_sales": {
+            "N": "7"
+          },
+          "total_sales_amount": {
+            "N": "66.24"
+          },
+          "price_change_percent": {
+            "N": "16.89"
+          },
+          "average_price": {
+            "N": "9.46"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "1.54"
+          },
+          "max_sale_price": {
+            "N": "15.00"
+          },
+          "min_sale_price": {
+            "N": "3.25"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "639fa80d-4a18-4be2-9381-86d6e034f9df"
+          },
+          "player": {
+            "S": "Quinn Ewers"
+          },
+          "card_name": {
+            "S": "Quinn Ewers 2025 Prizm #307 Silver"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "15.19"
+          },
+          "number_of_sales": {
+            "N": "8"
+          },
+          "total_sales_amount": {
+            "N": "124.74"
+          },
+          "price_change_percent": {
+            "N": "16.89"
+          },
+          "average_price": {
+            "N": "15.59"
+          },
+          "volume_change_percent": {
+            "N": "-20.00"
+          },
+          "price_change_amount": {
+            "N": "2.20"
+          },
+          "max_sale_price": {
+            "N": "25.00"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/05/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "a52888b3-fac1-4752-9357-6eeaa32b0c2c"
+          },
+          "player": {
+            "S": "Shaquille O'Neal"
+          },
+          "card_name": {
+            "S": "Shaquille O'Neal 1992 Topps #362 Gold"
+          },
+          "grade": {
+            "S": "PSA 9"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "110.33"
+          },
+          "number_of_sales": {
+            "N": "9"
+          },
+          "total_sales_amount": {
+            "N": "967.40"
+          },
+          "price_change_percent": {
+            "N": "16.82"
+          },
+          "average_price": {
+            "N": "107.49"
+          },
+          "volume_change_percent": {
+            "N": "-10.00"
+          },
+          "price_change_amount": {
+            "N": "15.88"
+          },
+          "max_sale_price": {
+            "N": "120.00"
+          },
+          "min_sale_price": {
+            "N": "86.40"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "8a2083ca-d659-4b87-805b-f30b7dc0b071"
+          },
+          "player": {
+            "S": "Malik Nabers"
+          },
+          "card_name": {
+            "S": "Malik Nabers 2024 Mosaic #306 Green"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "2.25"
+          },
+          "number_of_sales": {
+            "N": "6"
+          },
+          "total_sales_amount": {
+            "N": "10.02"
+          },
+          "price_change_percent": {
+            "N": "16.78"
+          },
+          "average_price": {
+            "N": "1.67"
+          },
+          "volume_change_percent": {
+            "N": "500.00"
+          },
+          "price_change_amount": {
+            "N": "0.32"
+          },
+          "max_sale_price": {
+            "N": "2.79"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/05/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "3a27d65d-fa8a-4254-9a7b-2daecc562a73"
+          },
+          "player": {
+            "S": "Michael Jordan"
+          },
+          "card_name": {
+            "S": "Michael Jordan 1992 Upper Deck #425 All-Star"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "2.02"
+          },
+          "number_of_sales": {
+            "N": "8"
+          },
+          "total_sales_amount": {
+            "N": "13.88"
+          },
+          "price_change_percent": {
+            "N": "16.76"
+          },
+          "average_price": {
+            "N": "1.74"
+          },
+          "volume_change_percent": {
+            "N": "-50.00"
+          },
+          "price_change_amount": {
+            "N": "0.29"
+          },
+          "max_sale_price": {
+            "N": "2.49"
+          },
+          "min_sale_price": {
+            "N": "1.00"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "793fcaa6-908b-4085-b88d-7b2611e38334"
+          },
+          "player": {
+            "S": "Brandon Miller"
+          },
+          "card_name": {
+            "S": "Brandon Miller 2023 Prizm #152 Green"
+          },
+          "grade": {
+            "S": "PSA 10"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "43.75"
+          },
+          "number_of_sales": {
+            "N": "8"
+          },
+          "total_sales_amount": {
+            "N": "357.84"
+          },
+          "price_change_percent": {
+            "N": "16.74"
+          },
+          "average_price": {
+            "N": "44.73"
+          },
+          "volume_change_percent": {
+            "N": "60.00"
+          },
+          "price_change_amount": {
+            "N": "6.27"
+          },
+          "max_sale_price": {
+            "N": "51.00"
+          },
+          "min_sale_price": {
+            "N": "35.00"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "8cad4cb5-c5c4-450c-808b-5f61ac8a6eaa"
+          },
+          "player": {
+            "S": "Jaxon Smith-Njigba"
+          },
+          "card_name": {
+            "S": "Jaxon Smith-Njigba 2023 Illusions #16 Funkadelic"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "3.49"
+          },
+          "number_of_sales": {
+            "N": "8"
+          },
+          "total_sales_amount": {
+            "N": "36.68"
+          },
+          "price_change_percent": {
+            "N": "16.72"
+          },
+          "average_price": {
+            "N": "4.58"
+          },
+          "volume_change_percent": {
+            "N": "-46.67"
+          },
+          "price_change_amount": {
+            "N": "0.50"
+          },
+          "max_sale_price": {
+            "N": "7.50"
+          },
+          "min_sale_price": {
+            "N": "2.99"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "4e042ba5-5153-4603-af3d-042033dc602b"
+          },
+          "player": {
+            "S": "Jaylen Brown"
+          },
+          "card_name": {
+            "S": "Jaylen Brown 2016 Donruss #153 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "6.99"
+          },
+          "number_of_sales": {
+            "N": "11"
+          },
+          "total_sales_amount": {
+            "N": "80.39"
+          },
+          "price_change_percent": {
+            "N": "16.69"
+          },
+          "average_price": {
+            "N": "7.31"
+          },
+          "volume_change_percent": {
+            "N": "57.14"
+          },
+          "price_change_amount": {
+            "N": "1.00"
+          },
+          "max_sale_price": {
+            "N": "20.00"
+          },
+          "min_sale_price": {
+            "N": "3.00"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "a99b1623-b9b1-42a9-a804-2c1e827b9f25"
+          },
+          "player": {
+            "S": "Will Richard"
+          },
+          "card_name": {
+            "S": "Will Richard 2025 Topps Chrome #TCAR-WIR Chrome Rookie Autographs"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "14.59"
+          },
+          "number_of_sales": {
+            "N": "20"
+          },
+          "total_sales_amount": {
+            "N": "219.46"
+          },
+          "price_change_percent": {
+            "N": "16.69"
+          },
+          "average_price": {
+            "N": "10.97"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "2.09"
+          },
+          "max_sale_price": {
+            "N": "17.50"
+          },
+          "min_sale_price": {
+            "N": "3.25"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "f1577559-f4e3-49ab-92bd-cfd75e52a1da"
+          },
+          "player": {
+            "S": "Tom Brady"
+          },
+          "card_name": {
+            "S": "Tom Brady 2000 Press Pass #37 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "70.00"
+          },
+          "number_of_sales": {
+            "N": "9"
+          },
+          "total_sales_amount": {
+            "N": "589.99"
+          },
+          "price_change_percent": {
+            "N": "16.68"
+          },
+          "average_price": {
+            "N": "65.55"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "10.01"
+          },
+          "max_sale_price": {
+            "N": "75.00"
+          },
+          "min_sale_price": {
+            "N": "50.00"
+          },
+          "last_sale_date": {
+            "S": "02/06/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "25d070e7-3db0-43aa-9a61-ce1b2c84f691"
+          },
+          "player": {
+            "S": "Kon Knueppel"
+          },
+          "card_name": {
+            "S": "Kon Knueppel 2025 Topps Chrome #FS-KK Future Stars Autographs"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "279.99"
+          },
+          "number_of_sales": {
+            "N": "5"
+          },
+          "total_sales_amount": {
+            "N": "1216.03"
+          },
+          "price_change_percent": {
+            "N": "16.67"
+          },
+          "average_price": {
+            "N": "243.21"
+          },
+          "volume_change_percent": {
+            "N": "-50.00"
+          },
+          "price_change_amount": {
+            "N": "40.00"
+          },
+          "max_sale_price": {
+            "N": "280.00"
+          },
+          "min_sale_price": {
+            "N": "202.00"
+          },
+          "last_sale_date": {
+            "S": "02/06/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "4f712890-332a-4789-8912-0aa2be222c82"
+          },
+          "player": {
+            "S": "Ashton Jeanty"
+          },
+          "card_name": {
+            "S": "Ashton Jeanty 2025 Optic #2 Uptowns"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "315.00"
+          },
+          "number_of_sales": {
+            "N": "8"
+          },
+          "total_sales_amount": {
+            "N": "2299.98"
+          },
+          "price_change_percent": {
+            "N": "16.67"
+          },
+          "average_price": {
+            "N": "287.50"
+          },
+          "volume_change_percent": {
+            "N": "33.33"
+          },
+          "price_change_amount": {
+            "N": "45.00"
+          },
+          "max_sale_price": {
+            "N": "330.00"
+          },
+          "min_sale_price": {
+            "N": "249.99"
+          },
+          "last_sale_date": {
+            "S": "02/06/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "153786fb-c79b-496d-854e-911dbc63b407"
+          },
+          "player": {
+            "S": "Paolo Banchero"
+          },
+          "card_name": {
+            "S": "Paolo Banchero 2025 Topps Chrome #140 Image Variation"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "7.00"
+          },
+          "number_of_sales": {
+            "N": "5"
+          },
+          "total_sales_amount": {
+            "N": "32.75"
+          },
+          "price_change_percent": {
+            "N": "16.67"
+          },
+          "average_price": {
+            "N": "6.55"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "1.00"
+          },
+          "max_sale_price": {
+            "N": "7.50"
+          },
+          "min_sale_price": {
+            "N": "5.00"
+          },
+          "last_sale_date": {
+            "S": "02/06/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "2652bc35-4b46-4d42-84c9-aae00a97020d"
+          },
+          "player": {
+            "S": "Victor Wembanyama"
+          },
+          "card_name": {
+            "S": "Victor Wembanyama 2023 Haunted Hoops #108 Orange"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "3.50"
+          },
+          "number_of_sales": {
+            "N": "6"
+          },
+          "total_sales_amount": {
+            "N": "15.48"
+          },
+          "price_change_percent": {
+            "N": "16.67"
+          },
+          "average_price": {
+            "N": "2.58"
+          },
+          "volume_change_percent": {
+            "N": "50.00"
+          },
+          "price_change_amount": {
+            "N": "0.50"
+          },
+          "max_sale_price": {
+            "N": "4.75"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "41942e08-3112-4c3d-a83d-6407d351324f"
+          },
+          "player": {
+            "S": "Derik Queen"
+          },
+          "card_name": {
+            "S": "Derik Queen 2025 Topps Chrome #263 Red White & Blue Refractor"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "5.21"
+          },
+          "number_of_sales": {
+            "N": "36"
+          },
+          "total_sales_amount": {
+            "N": "196.47"
+          },
+          "price_change_percent": {
+            "N": "16.66"
+          },
+          "average_price": {
+            "N": "5.46"
+          },
+          "volume_change_percent": {
+            "N": "50.00"
+          },
+          "price_change_amount": {
+            "N": "0.74"
+          },
+          "max_sale_price": {
+            "N": "9.46"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "6d0a875d-9be7-4fea-96e8-34289c8b35e2"
+          },
+          "player": {
+            "S": "LeBron James"
+          },
+          "card_name": {
+            "S": "LeBron James 2003 Upper Deck Redemption Special"
+          },
+          "grade": {
+            "S": "PSA 9"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "69.99"
+          },
+          "number_of_sales": {
+            "N": "5"
+          },
+          "total_sales_amount": {
+            "N": "306.66"
+          },
+          "price_change_percent": {
+            "N": "16.65"
+          },
+          "average_price": {
+            "N": "61.33"
+          },
+          "volume_change_percent": {
+            "N": "-16.67"
+          },
+          "price_change_amount": {
+            "N": "9.99"
+          },
+          "max_sale_price": {
+            "N": "69.99"
+          },
+          "min_sale_price": {
+            "N": "55.00"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "daf76e7d-e0e7-4414-a489-99cc68a5daf0"
+          },
+          "player": {
+            "S": "JJ McCarthy"
+          },
+          "card_name": {
+            "S": "JJ McCarthy 2024 Donruss #11 Downtown"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260208"
+          },
+          "price": {
+            "N": "386.00"
+          },
+          "number_of_sales": {
+            "N": "8"
+          },
+          "total_sales_amount": {
+            "N": "2883.98"
+          },
+          "price_change_percent": {
+            "N": "16.62"
+          },
+          "average_price": {
+            "N": "360.50"
+          },
+          "volume_change_percent": {
+            "N": "-61.90"
+          },
+          "price_change_amount": {
+            "N": "55.00"
+          },
+          "max_sale_price": {
+            "N": "400.00"
+          },
+          "min_sale_price": {
+            "N": "331.00"
+          },
+          "last_sale_date": {
+            "S": "02/06/2026"
+          }
+        }
+      }
+    }
+  ]
+}

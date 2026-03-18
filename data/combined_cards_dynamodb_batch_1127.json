@@ -1,0 +1,1279 @@
+{
+  "sports-card-capstone-card-data": [
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "bfa0224c-f8a1-4223-a764-39b124286589"
+          },
+          "player": {
+            "S": "Jack Sawyer"
+          },
+          "card_name": {
+            "S": "Jack Sawyer 2025 Donruss #390 Optic Preview - Red Pandora"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "1.25"
+          },
+          "number_of_sales": {
+            "N": "54"
+          },
+          "total_sales_amount": {
+            "N": "154.78"
+          },
+          "price_change_percent": {
+            "N": "-77.25"
+          },
+          "average_price": {
+            "N": "2.87"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-4.25"
+          },
+          "max_sale_price": {
+            "N": "6.00"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/14/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "9b5c07b6-238f-4769-a796-6d3195029d52"
+          },
+          "player": {
+            "S": "Ladd McConkey"
+          },
+          "card_name": {
+            "S": "Ladd McConkey 2024 Mosaic #334 Rookie Autographs - Mosaic"
+          },
+          "grade": {
+            "S": "PSA 10"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "91.00"
+          },
+          "number_of_sales": {
+            "N": "6"
+          },
+          "total_sales_amount": {
+            "N": "1484.50"
+          },
+          "price_change_percent": {
+            "N": "-77.25"
+          },
+          "average_price": {
+            "N": "247.42"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-309.00"
+          },
+          "max_sale_price": {
+            "N": "400.00"
+          },
+          "min_sale_price": {
+            "N": "91.00"
+          },
+          "last_sale_date": {
+            "S": "12/17/2025"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "6562fc10-a51a-4e04-9b2e-a20b03dc6588"
+          },
+          "player": {
+            "S": "Khaman Maluach"
+          },
+          "card_name": {
+            "S": "Khaman Maluach 2025 Topps #PP-20 Power Players - Holo Foil"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "1.82"
+          },
+          "number_of_sales": {
+            "N": "18"
+          },
+          "total_sales_amount": {
+            "N": "30.22"
+          },
+          "price_change_percent": {
+            "N": "-77.25"
+          },
+          "average_price": {
+            "N": "1.68"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-6.18"
+          },
+          "max_sale_price": {
+            "N": "8.00"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "01/24/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "224b2052-004f-40c1-ab46-b3bb12cc14cc"
+          },
+          "player": {
+            "S": "Cooper Flagg"
+          },
+          "card_name": {
+            "S": "Cooper Flagg 2024 Bowman U Now #101 Purple"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "91.00"
+          },
+          "number_of_sales": {
+            "N": "7"
+          },
+          "total_sales_amount": {
+            "N": "1327.97"
+          },
+          "price_change_percent": {
+            "N": "-77.25"
+          },
+          "average_price": {
+            "N": "189.71"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-308.99"
+          },
+          "max_sale_price": {
+            "N": "399.99"
+          },
+          "min_sale_price": {
+            "N": "51.00"
+          },
+          "last_sale_date": {
+            "S": "07/21/2025"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "ac792e47-3cb6-482e-b162-d7f606d4e72a"
+          },
+          "player": {
+            "S": "CJ Stroud"
+          },
+          "card_name": {
+            "S": "CJ Stroud 2023 Donruss #RR-2 Rookie Revolution - Cubic"
+          },
+          "grade": {
+            "S": "PSA 9"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "33.00"
+          },
+          "number_of_sales": {
+            "N": "5"
+          },
+          "total_sales_amount": {
+            "N": "423.99"
+          },
+          "price_change_percent": {
+            "N": "-77.24"
+          },
+          "average_price": {
+            "N": "84.80"
+          },
+          "volume_change_percent": {
+            "N": "400.00"
+          },
+          "price_change_amount": {
+            "N": "-112.00"
+          },
+          "max_sale_price": {
+            "N": "145.00"
+          },
+          "min_sale_price": {
+            "N": "33.00"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "03571fb0-89e3-4128-be88-2d78da114617"
+          },
+          "player": {
+            "S": "Cameron Brink"
+          },
+          "card_name": {
+            "S": "Cameron Brink 2024 Select WNBA #228 Courtside Red Ice"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "5.69"
+          },
+          "number_of_sales": {
+            "N": "16"
+          },
+          "total_sales_amount": {
+            "N": "344.15"
+          },
+          "price_change_percent": {
+            "N": "-77.24"
+          },
+          "average_price": {
+            "N": "21.51"
+          },
+          "volume_change_percent": {
+            "N": "6.67"
+          },
+          "price_change_amount": {
+            "N": "-19.31"
+          },
+          "max_sale_price": {
+            "N": "34.99"
+          },
+          "min_sale_price": {
+            "N": "5.69"
+          },
+          "last_sale_date": {
+            "S": "01/21/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "3626b2c4-891f-49d9-8a60-ba42b09c4ace"
+          },
+          "player": {
+            "S": "Bucky Irving"
+          },
+          "card_name": {
+            "S": "Bucky Irving 2024 Select #239 Club Level Silver Die-Cut"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "1.25"
+          },
+          "number_of_sales": {
+            "N": "84"
+          },
+          "total_sales_amount": {
+            "N": "178.41"
+          },
+          "price_change_percent": {
+            "N": "-77.23"
+          },
+          "average_price": {
+            "N": "2.12"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-4.24"
+          },
+          "max_sale_price": {
+            "N": "5.49"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/09/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "2baf6eef-e964-4ef8-91b5-e22359468581"
+          },
+          "player": {
+            "S": "Tetairoa McMillan"
+          },
+          "card_name": {
+            "S": "Tetairoa McMillan 2025 Mosaic #309 Pink Camo"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "2.50"
+          },
+          "number_of_sales": {
+            "N": "28"
+          },
+          "total_sales_amount": {
+            "N": "120.20"
+          },
+          "price_change_percent": {
+            "N": "-77.23"
+          },
+          "average_price": {
+            "N": "4.29"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-8.48"
+          },
+          "max_sale_price": {
+            "N": "10.98"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/15/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "ebd44338-2c0c-4523-948f-0b6f720e1f20"
+          },
+          "player": {
+            "S": "Ace Bailey"
+          },
+          "card_name": {
+            "S": "Ace Bailey 2025 Topps Silver Pack #TC-AB 1980-81 Topps Chrome - Blue Refractor"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "27.33"
+          },
+          "number_of_sales": {
+            "N": "10"
+          },
+          "total_sales_amount": {
+            "N": "526.31"
+          },
+          "price_change_percent": {
+            "N": "-77.22"
+          },
+          "average_price": {
+            "N": "52.63"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-92.67"
+          },
+          "max_sale_price": {
+            "N": "120.00"
+          },
+          "min_sale_price": {
+            "N": "18.49"
+          },
+          "last_sale_date": {
+            "S": "02/07/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "03c933a8-622a-4194-8919-bce6b3f48b29"
+          },
+          "player": {
+            "S": "Justin Fields"
+          },
+          "card_name": {
+            "S": "Justin Fields 2021 Optic #204 Blue Hyper"
+          },
+          "grade": {
+            "S": "PSA 10"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "10.25"
+          },
+          "number_of_sales": {
+            "N": "6"
+          },
+          "total_sales_amount": {
+            "N": "253.43"
+          },
+          "price_change_percent": {
+            "N": "-77.22"
+          },
+          "average_price": {
+            "N": "42.24"
+          },
+          "volume_change_percent": {
+            "N": "-33.33"
+          },
+          "price_change_amount": {
+            "N": "-34.75"
+          },
+          "max_sale_price": {
+            "N": "69.99"
+          },
+          "min_sale_price": {
+            "N": "10.25"
+          },
+          "last_sale_date": {
+            "S": "01/10/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "6109386e-6f66-486a-ba3a-03e22b61e8b9"
+          },
+          "player": {
+            "S": "Reed Sheppard"
+          },
+          "card_name": {
+            "S": "Reed Sheppard 2024 Prizm #268 Multi Wave"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "41.00"
+          },
+          "number_of_sales": {
+            "N": "21"
+          },
+          "total_sales_amount": {
+            "N": "1061.67"
+          },
+          "price_change_percent": {
+            "N": "-77.22"
+          },
+          "average_price": {
+            "N": "50.56"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-139.00"
+          },
+          "max_sale_price": {
+            "N": "180.00"
+          },
+          "min_sale_price": {
+            "N": "17.84"
+          },
+          "last_sale_date": {
+            "S": "02/09/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "98e585b9-013d-4483-8c1d-5ab1d53df782"
+          },
+          "player": {
+            "S": "Giannis Antetokounmpo"
+          },
+          "card_name": {
+            "S": "Giannis Antetokounmpo 2024 Optic #17 Mythical"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "41.00"
+          },
+          "number_of_sales": {
+            "N": "38"
+          },
+          "total_sales_amount": {
+            "N": "2244.09"
+          },
+          "price_change_percent": {
+            "N": "-77.22"
+          },
+          "average_price": {
+            "N": "59.06"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-139.00"
+          },
+          "max_sale_price": {
+            "N": "180.00"
+          },
+          "min_sale_price": {
+            "N": "38.00"
+          },
+          "last_sale_date": {
+            "S": "02/14/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "deaecfd9-a4d1-4f9c-a4a8-e1d6551a30e7"
+          },
+          "player": {
+            "S": "Luther Burden III"
+          },
+          "card_name": {
+            "S": "Luther Burden III 2025 Optic #275 Blue"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "15.50"
+          },
+          "number_of_sales": {
+            "N": "5"
+          },
+          "total_sales_amount": {
+            "N": "149.00"
+          },
+          "price_change_percent": {
+            "N": "-77.21"
+          },
+          "average_price": {
+            "N": "29.80"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-52.50"
+          },
+          "max_sale_price": {
+            "N": "68.00"
+          },
+          "min_sale_price": {
+            "N": "15.00"
+          },
+          "last_sale_date": {
+            "S": "02/15/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "9f422b9f-2a94-4ce5-aff2-2df3306cc466"
+          },
+          "player": {
+            "S": "Luke McCaffrey"
+          },
+          "card_name": {
+            "S": "Luke McCaffrey 2024 Optic #268 Green Hyper"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "1.14"
+          },
+          "number_of_sales": {
+            "N": "20"
+          },
+          "total_sales_amount": {
+            "N": "40.41"
+          },
+          "price_change_percent": {
+            "N": "-77.20"
+          },
+          "average_price": {
+            "N": "2.02"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-3.86"
+          },
+          "max_sale_price": {
+            "N": "5.00"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "12/24/2025"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "5d59f776-ac0f-4adc-a156-82ca2a26af3c"
+          },
+          "player": {
+            "S": "Keon Coleman"
+          },
+          "card_name": {
+            "S": "Keon Coleman 2024 Mosaic #333 Blue"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "2.85"
+          },
+          "number_of_sales": {
+            "N": "5"
+          },
+          "total_sales_amount": {
+            "N": "50.85"
+          },
+          "price_change_percent": {
+            "N": "-77.20"
+          },
+          "average_price": {
+            "N": "10.17"
+          },
+          "volume_change_percent": {
+            "N": "-28.57"
+          },
+          "price_change_amount": {
+            "N": "-9.65"
+          },
+          "max_sale_price": {
+            "N": "12.50"
+          },
+          "min_sale_price": {
+            "N": "2.85"
+          },
+          "last_sale_date": {
+            "S": "12/14/2025"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "a8fb55de-a571-4fba-92fc-40b97baf0163"
+          },
+          "player": {
+            "S": "LeBron James"
+          },
+          "card_name": {
+            "S": "LeBron James 2023 Select #8 Thunder Lane - Tectonic"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "4.25"
+          },
+          "number_of_sales": {
+            "N": "7"
+          },
+          "total_sales_amount": {
+            "N": "48.94"
+          },
+          "price_change_percent": {
+            "N": "-77.20"
+          },
+          "average_price": {
+            "N": "6.99"
+          },
+          "volume_change_percent": {
+            "N": "-78.13"
+          },
+          "price_change_amount": {
+            "N": "-14.39"
+          },
+          "max_sale_price": {
+            "N": "18.64"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "11/21/2025"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "4060d238-1cde-4584-8a58-ce24a4ed05d0"
+          },
+          "player": {
+            "S": "CJ Baxter"
+          },
+          "card_name": {
+            "S": "CJ Baxter 2024 Bowman Chrome University #PA-CBA Prospect Auto - Refractor (1st)"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "3.02"
+          },
+          "number_of_sales": {
+            "N": "31"
+          },
+          "total_sales_amount": {
+            "N": "374.60"
+          },
+          "price_change_percent": {
+            "N": "-77.20"
+          },
+          "average_price": {
+            "N": "12.08"
+          },
+          "volume_change_percent": {
+            "N": "10.71"
+          },
+          "price_change_amount": {
+            "N": "-10.23"
+          },
+          "max_sale_price": {
+            "N": "20.00"
+          },
+          "min_sale_price": {
+            "N": "3.02"
+          },
+          "last_sale_date": {
+            "S": "01/20/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "352086df-1f1a-437d-990a-379bf51a99ef"
+          },
+          "player": {
+            "S": "Cameron Brink"
+          },
+          "card_name": {
+            "S": "Cameron Brink 2024 Prizm WNBA #127 Checkerboard"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "35.00"
+          },
+          "number_of_sales": {
+            "N": "25"
+          },
+          "total_sales_amount": {
+            "N": "1903.92"
+          },
+          "price_change_percent": {
+            "N": "-77.20"
+          },
+          "average_price": {
+            "N": "76.16"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-118.50"
+          },
+          "max_sale_price": {
+            "N": "153.50"
+          },
+          "min_sale_price": {
+            "N": "26.25"
+          },
+          "last_sale_date": {
+            "S": "02/06/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "69bd75d8-cfbe-4aa3-9d64-4e8206907aaa"
+          },
+          "player": {
+            "S": "Brian Robinson Jr."
+          },
+          "card_name": {
+            "S": "Brian Robinson Jr. 2022 Contenders #106 Rookie Ticket Auto"
+          },
+          "grade": {
+            "S": "PSA 10"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "19.38"
+          },
+          "number_of_sales": {
+            "N": "5"
+          },
+          "total_sales_amount": {
+            "N": "252.36"
+          },
+          "price_change_percent": {
+            "N": "-77.20"
+          },
+          "average_price": {
+            "N": "50.47"
+          },
+          "volume_change_percent": {
+            "N": "25.00"
+          },
+          "price_change_amount": {
+            "N": "-65.61"
+          },
+          "max_sale_price": {
+            "N": "84.99"
+          },
+          "min_sale_price": {
+            "N": "19.38"
+          },
+          "last_sale_date": {
+            "S": "01/13/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "81d32778-0198-47c2-8341-c0d3db40d8dd"
+          },
+          "player": {
+            "S": "Jordan Travis"
+          },
+          "card_name": {
+            "S": "Jordan Travis 2024 Prizm #22 Rookie Variation - Silver"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "3.99"
+          },
+          "number_of_sales": {
+            "N": "95"
+          },
+          "total_sales_amount": {
+            "N": "1166.09"
+          },
+          "price_change_percent": {
+            "N": "-77.19"
+          },
+          "average_price": {
+            "N": "12.27"
+          },
+          "volume_change_percent": {
+            "N": "58.33"
+          },
+          "price_change_amount": {
+            "N": "-13.50"
+          },
+          "max_sale_price": {
+            "N": "27.00"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "01/22/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "0952f818-fe26-4788-93da-4f756625726c"
+          },
+          "player": {
+            "S": "Abdul Carter"
+          },
+          "card_name": {
+            "S": "Abdul Carter 2025 Mosaic #317 Red"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "0.99"
+          },
+          "number_of_sales": {
+            "N": "14"
+          },
+          "total_sales_amount": {
+            "N": "43.65"
+          },
+          "price_change_percent": {
+            "N": "-77.19"
+          },
+          "average_price": {
+            "N": "3.12"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-3.35"
+          },
+          "max_sale_price": {
+            "N": "5.50"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/05/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "d22aba12-a5d0-4c55-b1b0-7766c61a83fb"
+          },
+          "player": {
+            "S": "JJ McCarthy"
+          },
+          "card_name": {
+            "S": "JJ McCarthy 2024 Select #24 Concourse Zebra Shock"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "120.00"
+          },
+          "number_of_sales": {
+            "N": "33"
+          },
+          "total_sales_amount": {
+            "N": "11286.34"
+          },
+          "price_change_percent": {
+            "N": "-77.19"
+          },
+          "average_price": {
+            "N": "342.01"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-405.99"
+          },
+          "max_sale_price": {
+            "N": "635.00"
+          },
+          "min_sale_price": {
+            "N": "91.00"
+          },
+          "last_sale_date": {
+            "S": "12/29/2025"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "cf944531-cb08-4dcf-9be4-03b32dfea892"
+          },
+          "player": {
+            "S": "Gradey Dick"
+          },
+          "card_name": {
+            "S": "Gradey Dick 2023 Prizm #134 Fast Break"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "1.25"
+          },
+          "number_of_sales": {
+            "N": "9"
+          },
+          "total_sales_amount": {
+            "N": "25.57"
+          },
+          "price_change_percent": {
+            "N": "-77.18"
+          },
+          "average_price": {
+            "N": "2.84"
+          },
+          "volume_change_percent": {
+            "N": "-83.93"
+          },
+          "price_change_amount": {
+            "N": "-4.25"
+          },
+          "max_sale_price": {
+            "N": "6.05"
+          },
+          "min_sale_price": {
+            "N": "1.25"
+          },
+          "last_sale_date": {
+            "S": "02/08/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "a1c9ffaf-eaf1-42a4-90d0-175991f76e5e"
+          },
+          "player": {
+            "S": "Will Levis"
+          },
+          "card_name": {
+            "S": "Will Levis 2023 Prizm #397 Blue Ice"
+          },
+          "grade": {
+            "S": "PSA 10"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "34.80"
+          },
+          "number_of_sales": {
+            "N": "9"
+          },
+          "total_sales_amount": {
+            "N": "651.31"
+          },
+          "price_change_percent": {
+            "N": "-77.18"
+          },
+          "average_price": {
+            "N": "72.37"
+          },
+          "volume_change_percent": {
+            "N": "-62.50"
+          },
+          "price_change_amount": {
+            "N": "-117.70"
+          },
+          "max_sale_price": {
+            "N": "152.50"
+          },
+          "min_sale_price": {
+            "N": "34.80"
+          },
+          "last_sale_date": {
+            "S": "01/04/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "4f450824-a4e2-4f0a-bae1-5f7707343e65"
+          },
+          "player": {
+            "S": "Nate Wiggins"
+          },
+          "card_name": {
+            "S": "Nate Wiggins 2024 Optic #281 Red"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260216"
+          },
+          "price": {
+            "N": "2.28"
+          },
+          "number_of_sales": {
+            "N": "6"
+          },
+          "total_sales_amount": {
+            "N": "21.00"
+          },
+          "price_change_percent": {
+            "N": "-77.18"
+          },
+          "average_price": {
+            "N": "3.50"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-7.71"
+          },
+          "max_sale_price": {
+            "N": "9.99"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "11/23/2025"
+          }
+        }
+      }
+    }
+  ]
+}

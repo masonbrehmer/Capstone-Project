@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Card Analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <p class="eyebrow">Sports Card API</p>
+      <h1>Sports Card Analytics</h1>
+      <p class="subtitle">Track standout movers, filter by player, and sort recent card pricing data from the live API.</p>
+    </section>
+
+    <section class="dashboard">
+      <article class="dashboard-panel">
+        <div class="panel-heading">
+          <p class="panel-label">Momentum</p>
+          <h2>Top Gainers</h2>
+        </div>
+        <div id="top-gainers" class="dashboard-list"></div>
+      </article>
+
+      <article class="dashboard-panel">
+        <div class="panel-heading">
+          <p class="panel-label">Pullback</p>
+          <h2>Top Losers</h2>
+        </div>
+        <div id="top-losers" class="dashboard-list"></div>
+      </article>
+
+      <article class="dashboard-panel">
+        <div class="panel-heading">
+          <p class="panel-label">Activity</p>
+          <h2>Highest Volume Cards</h2>
+        </div>
+        <div id="highest-volume" class="dashboard-list"></div>
+      </article>
+    </section>
+
+    <section class="controls">
+      <label class="search-group" for="player-search">
+        <span>Player Search</span>
+        <input id="player-search" type="text" placeholder="Enter a player name" autocomplete="off">
+      </label>
+      <label class="control-group" for="sort-select">
+        <span>Sort By</span>
+        <select id="sort-select">
+          <option value="price:desc">Price: High to Low</option>
+          <option value="price:asc">Price: Low to High</option>
+          <option value="price_change_percent:desc">Top Gainers</option>
+          <option value="price_change_percent:asc">Top Losers</option>
+          <option value="number_of_sales:desc">Most Sales</option>
+          <option value="total_sales_amount:desc">Highest Sales Total</option>
+        </select>
+      </label>
+      <label class="control-group" for="limit-select">
+        <span>Results</span>
+        <select id="limit-select">
+          <option value="10">10</option>
+          <option value="25" selected>25</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+        </select>
+      </label>
+      <div class="button-row">
+        <button id="search-button" type="button">Search</button>
+        <button id="load-button" type="button" class="secondary">Load Default Cards</button>
+      </div>
+    </section>
+
+    <section class="status-panel">
+      <p id="status-message">Loading cards and dashboard analytics...</p>
+    </section>
+
+    <section class="results-header">
+      <div>
+        <p class="panel-label">Card Feed</p>
+        <h2>Market Cards</h2>
+      </div>
+    </section>
+
+    <section id="cards-container" class="cards-grid" aria-live="polite"></section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,372 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >
+  Serverless infrastructure for a sports card investment analytics capstone.
+  This stack creates an S3 static website bucket, an HTTP API, a Lambda
+  function, and a DynamoDB table.
+
+Parameters:
+  ProjectName:
+    Type: String
+    Default: sports-card-capstone
+    Description: Prefix used for naming resources.
+
+Resources:
+  CardDataTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub '${ProjectName}-card-data'
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: cardId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: cardId
+          KeyType: HASH
+
+  WebsiteBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub '${ProjectName}-${AWS::AccountId}-${AWS::Region}-site'
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        ErrorDocument: error.html
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: false
+        BlockPublicPolicy: false
+        IgnorePublicAcls: false
+        RestrictPublicBuckets: false
+
+  WebsiteBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref WebsiteBucket
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Sid: PublicReadForStaticWebsite
+            Effect: Allow
+            Principal: '*'
+            Action: s3:GetObject
+            Resource: !Sub '${WebsiteBucket.Arn}/*'
+
+  AnalyticsFunctionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub '${ProjectName}-lambda-role-${AWS::Region}'
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: DynamoDbReadWriteAccessForCapstone
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - dynamodb:GetItem
+                  - dynamodb:PutItem
+                  - dynamodb:Scan
+                  - dynamodb:Query
+                Resource: !GetAtt CardDataTable.Arn
+
+  AnalyticsFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub '${ProjectName}-analytics'
+      Runtime: python3.12
+      Handler: index.handler
+      Role: !GetAtt AnalyticsFunctionRole.Arn
+      Timeout: 10
+      MemorySize: 256
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref CardDataTable
+      Code:
+        ZipFile: |
+          import json
+          import os
+          from urllib.parse import unquote_plus
+
+          import boto3
+          from decimal import Decimal
+
+          dynamodb = boto3.resource("dynamodb")
+          table = dynamodb.Table(os.environ["TABLE_NAME"])
+          bedrock = boto3.client("bedrock-runtime")
+
+          def decimal_to_native(value):
+              if isinstance(value, list):
+                  return [decimal_to_native(item) for item in value]
+              if isinstance(value, dict):
+                  return {key: decimal_to_native(item) for key, item in value.items()}
+              if isinstance(value, Decimal):
+                  return int(value) if value % 1 == 0 else float(value)
+              return value
+
+          def response(status_code, body):
+              return {
+                  "statusCode": status_code,
+                  "headers": {
+                      "Content-Type": "application/json",
+                      "Access-Control-Allow-Origin": "*"
+                  },
+                  "body": json.dumps(body)
+              }
+
+          def parse_limit(raw_limit):
+              if raw_limit in (None, ""):
+                  return 25
+
+              try:
+                  value = int(raw_limit)
+              except (TypeError, ValueError):
+                  return 25
+
+              return max(1, min(value, 100))
+
+          def get_method(event):
+              return event.get("requestContext", {}).get("http", {}).get("method", "")
+
+          def get_path(event):
+              return event.get("rawPath", "")
+
+          def get_query_params(event):
+              return event.get("queryStringParameters") or {}
+
+          def get_sort_field(raw_sort):
+              allowed_fields = {
+                  "price",
+                  "price_change_percent",
+                  "number_of_sales",
+                  "total_sales_amount"
+              }
+              if raw_sort in allowed_fields:
+                  return raw_sort
+              return ""
+
+          def get_sort_direction(raw_direction):
+              if str(raw_direction).lower() == "asc":
+                  return "asc"
+              return "desc"
+
+          def safe_number(value):
+              try:
+                  if value is None:
+                      return 0
+                  return float(value)
+              except:
+                  return 0
+
+          def get_path_card_id(event, path):
+              path_parameters = event.get("pathParameters") or {}
+              if path_parameters.get("cardId"):
+                  return path_parameters["cardId"]
+
+              prefix = "/cards/"
+              if path.startswith(prefix):
+                  return unquote_plus(path[len(prefix):])
+
+              return ""
+
+          def list_cards(limit, player_filter, sort_field, direction):
+              items = []
+              scan_kwargs = {}
+
+              while len(items) < 500:
+                  result = table.scan(**scan_kwargs)
+                  batch_items = result.get("Items", [])
+                  items.extend(batch_items)
+
+                  last_evaluated_key = result.get("LastEvaluatedKey")
+                  if not last_evaluated_key:
+                      break
+
+                  scan_kwargs["ExclusiveStartKey"] = last_evaluated_key
+
+              if player_filter:
+                  player_filter_lower = player_filter.lower()
+                  items = [
+                      item for item in items
+                      if player_filter_lower in str(item.get("player", "")).lower()
+                  ]
+
+              if sort_field:
+                  reverse = direction != "asc"
+                  items.sort(
+                      key=lambda item: safe_number(item.get(sort_field)),
+                      reverse=reverse
+                  )
+
+              return decimal_to_native(items[:limit])
+
+          def handler(event, context):
+              method = get_method(event)
+              path = get_path(event)
+              query_params = get_query_params(event)
+
+              print("DEBUG METHOD:", method)
+              print("DEBUG PATH:", path)
+
+              if method == "GET" and path == "/cards":
+                  limit = parse_limit(query_params.get("limit"))
+                  player = (query_params.get("player") or "").strip()
+                  sort_field = get_sort_field(query_params.get("sort"))
+                  direction = get_sort_direction(query_params.get("direction"))
+                  items = list_cards(limit, player, sort_field, direction)
+                  return response(200, {"count": len(items), "items": items})
+
+              if method == "GET" and path.startswith("/recommendations"):
+                  player = (query_params.get("player") or "").strip()
+
+                  if not player:
+                      return response(400, {"message": "player is required"})
+
+                  prompt = f"Give a short sports card investment insight for {player}. Focus on market trends, demand, and risk. Keep it under 3 sentences."
+
+                  bedrock_response = bedrock.invoke_model(
+                      modelId="amazon.nova-micro-v1:0",
+                      contentType="application/json",
+                      accept="application/json",
+                      body=json.dumps({
+                          "messages": [
+                              {
+                                  "role": "user",
+                                  "content": [
+                                      {
+                                          "text": prompt
+                                      }
+                                  ]
+                              }
+                          ],
+                          "inferenceConfig": {
+                              "maxTokens": 150,
+                              "temperature": 0.7
+                          }
+                      })
+                  )
+
+                  body = bedrock_response["body"].read().decode("utf-8")
+                  result = json.loads(body)
+
+                  text = ""
+                  if "output" in result and "message" in result["output"]:
+                      content = result["output"]["message"].get("content", [])
+                      if len(content) > 0:
+                          text = content[0].get("text", "")
+                  else:
+                      text = "No insight generated."
+
+                  return response(200, {"player": player, "insight": text})
+
+              if method == "GET" and path.startswith("/cards/"):
+                  card_id = get_path_card_id(event, path)
+                  if not card_id:
+                      return response(400, {"message": "cardId is required"})
+
+                  result = table.get_item(Key={"cardId": card_id})
+                  item = result.get("Item")
+                  if not item:
+                      return response(404, {"message": "Card not found"})
+
+                  return response(200, decimal_to_native(item))
+
+              if method == "POST" and path == "/cards":
+                  return response(405, {"message": "POST /cards is disabled"})
+
+              if method == "GET" and path == "/health":
+                  return response(200, {"status": "ok"})
+
+              return response(404, {"message": "Route not found"})
+
+  HttpApi:
+    Type: AWS::ApiGatewayV2::Api
+    Properties:
+      Name: !Sub '${ProjectName}-http-api'
+      ProtocolType: HTTP
+      CorsConfiguration:
+        AllowOrigins:
+          - '*'
+        AllowMethods:
+          - GET
+          - POST
+          - OPTIONS
+        AllowHeaders:
+          - content-type
+
+  HttpApiStage:
+    Type: AWS::ApiGatewayV2::Stage
+    Properties:
+      ApiId: !Ref HttpApi
+      StageName: '$default'
+      AutoDeploy: true
+
+  AnalyticsIntegration:
+    Type: AWS::ApiGatewayV2::Integration
+    Properties:
+      ApiId: !Ref HttpApi
+      IntegrationType: AWS_PROXY
+      IntegrationUri: !GetAtt AnalyticsFunction.Arn
+      PayloadFormatVersion: '2.0'
+
+  CardsRoute:
+    Type: AWS::ApiGatewayV2::Route
+    Properties:
+      ApiId: !Ref HttpApi
+      RouteKey: 'GET /cards'
+      Target: !Sub 'integrations/${AnalyticsIntegration}'
+
+  CardByIdRoute:
+    Type: AWS::ApiGatewayV2::Route
+    Properties:
+      ApiId: !Ref HttpApi
+      RouteKey: 'GET /cards/{cardId}'
+      Target: !Sub 'integrations/${AnalyticsIntegration}'
+
+  CreateCardRoute:
+    Type: AWS::ApiGatewayV2::Route
+    Properties:
+      ApiId: !Ref HttpApi
+      RouteKey: 'POST /cards'
+      Target: !Sub 'integrations/${AnalyticsIntegration}'
+
+  HealthRoute:
+    Type: AWS::ApiGatewayV2::Route
+    Properties:
+      ApiId: !Ref HttpApi
+      RouteKey: 'GET /health'
+      Target: !Sub 'integrations/${AnalyticsIntegration}'
+
+  ApiInvokePermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:InvokeFunction
+      FunctionName: !Ref AnalyticsFunction
+      Principal: apigateway.amazonaws.com
+      SourceArn: !Sub 'arn:aws:execute-api:${AWS::Region}:${AWS::AccountId}:${HttpApi}/*/*'
+
+Outputs:
+  WebsiteBucketName:
+    Description: S3 bucket that hosts the static website.
+    Value: !Ref WebsiteBucket
+
+  WebsiteURL:
+    Description: Static website endpoint for the frontend.
+    Value: !GetAtt WebsiteBucket.WebsiteURL
+
+  ApiBaseUrl:
+    Description: Base URL for the HTTP API.
+    Value: !Sub 'https://${HttpApi}.execute-api.${AWS::Region}.amazonaws.com'
+
+  DynamoDbTableName:
+    Description: DynamoDB table for sports card records.
+    Value: !Ref CardDataTable
+
+  LambdaFunctionName:
+    Description: Lambda function that powers the backend analytics API.
+    Value: !Ref AnalyticsFunction

@@ -1,0 +1,1279 @@
+{
+  "sports-card-capstone-card-data": [
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "7422a04f-8cc4-4f02-9fe3-f1210352e097"
+          },
+          "player": {
+            "S": "Kobe Bryant"
+          },
+          "card_name": {
+            "S": "Kobe Bryant 1996 Upper Deck Collector's Choice #267 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "18.00"
+          },
+          "number_of_sales": {
+            "N": "33"
+          },
+          "total_sales_amount": {
+            "N": "655.85"
+          },
+          "price_change_percent": {
+            "N": "-15.64"
+          },
+          "average_price": {
+            "N": "19.87"
+          },
+          "volume_change_percent": {
+            "N": "22.22"
+          },
+          "price_change_amount": {
+            "N": "-3.34"
+          },
+          "max_sale_price": {
+            "N": "26.00"
+          },
+          "min_sale_price": {
+            "N": "13.50"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "9e9fe26c-7ded-4246-bb3e-efb03989f52d"
+          },
+          "player": {
+            "S": "Nick Kurtz"
+          },
+          "card_name": {
+            "S": "Nick Kurtz 2025 Topps Chrome Update #USC180 Rookie Debut - Refractor"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "6.19"
+          },
+          "number_of_sales": {
+            "N": "37"
+          },
+          "total_sales_amount": {
+            "N": "284.96"
+          },
+          "price_change_percent": {
+            "N": "-15.78"
+          },
+          "average_price": {
+            "N": "7.70"
+          },
+          "volume_change_percent": {
+            "N": "19.35"
+          },
+          "price_change_amount": {
+            "N": "-1.16"
+          },
+          "max_sale_price": {
+            "N": "24.99"
+          },
+          "min_sale_price": {
+            "N": "1.25"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "9cb0a13d-dd89-49c6-ba1c-05d4f2c9fda9"
+          },
+          "player": {
+            "S": "Caleb Williams"
+          },
+          "card_name": {
+            "S": "Caleb Williams 2024 Topps Chrome #202 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "2.00"
+          },
+          "number_of_sales": {
+            "N": "47"
+          },
+          "total_sales_amount": {
+            "N": "112.19"
+          },
+          "price_change_percent": {
+            "N": "-15.91"
+          },
+          "average_price": {
+            "N": "2.39"
+          },
+          "volume_change_percent": {
+            "N": "27.03"
+          },
+          "price_change_amount": {
+            "N": "-0.38"
+          },
+          "max_sale_price": {
+            "N": "4.95"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "cd947817-c6f7-474a-9316-a6ecee3f6ee4"
+          },
+          "player": {
+            "S": "Devin Taylor"
+          },
+          "card_name": {
+            "S": "Devin Taylor 2025 Bowman Draft #CPA-DT Chrome Prospect Auto (1st)"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "17.50"
+          },
+          "number_of_sales": {
+            "N": "31"
+          },
+          "total_sales_amount": {
+            "N": "524.32"
+          },
+          "price_change_percent": {
+            "N": "-16.77"
+          },
+          "average_price": {
+            "N": "16.91"
+          },
+          "volume_change_percent": {
+            "N": "3.33"
+          },
+          "price_change_amount": {
+            "N": "-3.52"
+          },
+          "max_sale_price": {
+            "N": "22.72"
+          },
+          "min_sale_price": {
+            "N": "11.50"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "828f2aaf-4257-4485-a539-f069d8eca1f4"
+          },
+          "player": {
+            "S": "Nick Kurtz"
+          },
+          "card_name": {
+            "S": "Nick Kurtz 2025 Topps Chrome Update #USC180 Rookie Debut - X-Fractor"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "6.79"
+          },
+          "number_of_sales": {
+            "N": "39"
+          },
+          "total_sales_amount": {
+            "N": "276.33"
+          },
+          "price_change_percent": {
+            "N": "-16.80"
+          },
+          "average_price": {
+            "N": "7.09"
+          },
+          "volume_change_percent": {
+            "N": "44.44"
+          },
+          "price_change_amount": {
+            "N": "-1.37"
+          },
+          "max_sale_price": {
+            "N": "14.99"
+          },
+          "min_sale_price": {
+            "N": "2.99"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "486a1f5c-679f-4107-a27c-00fa52729807"
+          },
+          "player": {
+            "S": "Bubba Chandler"
+          },
+          "card_name": {
+            "S": "Bubba Chandler 2026 Topps #283 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "1.99"
+          },
+          "number_of_sales": {
+            "N": "54"
+          },
+          "total_sales_amount": {
+            "N": "94.28"
+          },
+          "price_change_percent": {
+            "N": "-16.83"
+          },
+          "average_price": {
+            "N": "1.75"
+          },
+          "volume_change_percent": {
+            "N": "0.00"
+          },
+          "price_change_amount": {
+            "N": "-0.40"
+          },
+          "max_sale_price": {
+            "N": "3.99"
+          },
+          "min_sale_price": {
+            "N": "0.74"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "b56a7caa-f554-4ce0-85de-cab2d4220ebb"
+          },
+          "player": {
+            "S": "Michael Jordan"
+          },
+          "card_name": {
+            "S": "Michael Jordan 1992 Upper Deck #23 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "4.00"
+          },
+          "number_of_sales": {
+            "N": "47"
+          },
+          "total_sales_amount": {
+            "N": "248.09"
+          },
+          "price_change_percent": {
+            "N": "-16.90"
+          },
+          "average_price": {
+            "N": "5.28"
+          },
+          "volume_change_percent": {
+            "N": "-14.55"
+          },
+          "price_change_amount": {
+            "N": "-0.81"
+          },
+          "max_sale_price": {
+            "N": "20.00"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "86f04522-5ff4-4ad2-a856-e7eaf73d20e2"
+          },
+          "player": {
+            "S": "Charizard ex"
+          },
+          "card_name": {
+            "S": "Charizard ex 2024 Scarlet & Violet: Paldean Fates #054/091 Double Rare"
+          },
+          "grade": {
+            "S": "Raw TCG (Near Mint)"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "3.50"
+          },
+          "number_of_sales": {
+            "N": "30"
+          },
+          "total_sales_amount": {
+            "N": "148.82"
+          },
+          "price_change_percent": {
+            "N": "-16.91"
+          },
+          "average_price": {
+            "N": "4.96"
+          },
+          "volume_change_percent": {
+            "N": "11.11"
+          },
+          "price_change_amount": {
+            "N": "-0.71"
+          },
+          "max_sale_price": {
+            "N": "10.99"
+          },
+          "min_sale_price": {
+            "N": "2.49"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "65e06abd-a80c-4847-a5b0-c9e9a00f891f"
+          },
+          "player": {
+            "S": "Kon Knueppel"
+          },
+          "card_name": {
+            "S": "Kon Knueppel 2025 Topps Chrome #INS-14 Instinct"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "4.55"
+          },
+          "number_of_sales": {
+            "N": "49"
+          },
+          "total_sales_amount": {
+            "N": "268.58"
+          },
+          "price_change_percent": {
+            "N": "-17.01"
+          },
+          "average_price": {
+            "N": "5.48"
+          },
+          "volume_change_percent": {
+            "N": "-10.91"
+          },
+          "price_change_amount": {
+            "N": "-0.93"
+          },
+          "max_sale_price": {
+            "N": "17.61"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "050e2f3c-6fb2-4f88-a1d9-11ba1fab2d2c"
+          },
+          "player": {
+            "S": "Nick Kurtz"
+          },
+          "card_name": {
+            "S": "Nick Kurtz 2025 Topps Chrome Update #USC178 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "3.04"
+          },
+          "number_of_sales": {
+            "N": "102"
+          },
+          "total_sales_amount": {
+            "N": "340.61"
+          },
+          "price_change_percent": {
+            "N": "-17.09"
+          },
+          "average_price": {
+            "N": "3.34"
+          },
+          "volume_change_percent": {
+            "N": "-19.69"
+          },
+          "price_change_amount": {
+            "N": "-0.63"
+          },
+          "max_sale_price": {
+            "N": "15.50"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "ca3f0893-9921-4808-949c-ea75f42690d5"
+          },
+          "player": {
+            "S": "Sam Vincent"
+          },
+          "card_name": {
+            "S": "Sam Vincent 1990 Hoops #223 Base (Shows Michael Jordan Wearing #12)"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "3.11"
+          },
+          "number_of_sales": {
+            "N": "54"
+          },
+          "total_sales_amount": {
+            "N": "225.10"
+          },
+          "price_change_percent": {
+            "N": "-17.13"
+          },
+          "average_price": {
+            "N": "4.17"
+          },
+          "volume_change_percent": {
+            "N": "10.20"
+          },
+          "price_change_amount": {
+            "N": "-0.64"
+          },
+          "max_sale_price": {
+            "N": "18.00"
+          },
+          "min_sale_price": {
+            "N": "1.04"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "8616c160-d6d4-4e85-bb94-ba5b458d9204"
+          },
+          "player": {
+            "S": "Jaxson Dart"
+          },
+          "card_name": {
+            "S": "Jaxson Dart 2025 Donruss #400 Optic Preview - Red Wave"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "18.50"
+          },
+          "number_of_sales": {
+            "N": "30"
+          },
+          "total_sales_amount": {
+            "N": "700.01"
+          },
+          "price_change_percent": {
+            "N": "-17.39"
+          },
+          "average_price": {
+            "N": "23.33"
+          },
+          "volume_change_percent": {
+            "N": "-9.09"
+          },
+          "price_change_amount": {
+            "N": "-3.89"
+          },
+          "max_sale_price": {
+            "N": "34.00"
+          },
+          "min_sale_price": {
+            "N": "15.00"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "0f863859-1371-4bfb-9ecf-06f921bf43ab"
+          },
+          "player": {
+            "S": "Michael Jordan"
+          },
+          "card_name": {
+            "S": "Michael Jordan 1990 Skybox #41 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "6.62"
+          },
+          "number_of_sales": {
+            "N": "89"
+          },
+          "total_sales_amount": {
+            "N": "470.77"
+          },
+          "price_change_percent": {
+            "N": "-17.50"
+          },
+          "average_price": {
+            "N": "5.29"
+          },
+          "volume_change_percent": {
+            "N": "3.49"
+          },
+          "price_change_amount": {
+            "N": "-1.40"
+          },
+          "max_sale_price": {
+            "N": "24.50"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "b38c131d-b222-4c8e-8ecd-2968595f5e6a"
+          },
+          "player": {
+            "S": "Tyler Shough"
+          },
+          "card_name": {
+            "S": "Tyler Shough 2025 Prizm #327 White Disco"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "14.00"
+          },
+          "number_of_sales": {
+            "N": "46"
+          },
+          "total_sales_amount": {
+            "N": "788.07"
+          },
+          "price_change_percent": {
+            "N": "-17.63"
+          },
+          "average_price": {
+            "N": "17.13"
+          },
+          "volume_change_percent": {
+            "N": "15.00"
+          },
+          "price_change_amount": {
+            "N": "-3.00"
+          },
+          "max_sale_price": {
+            "N": "25.00"
+          },
+          "min_sale_price": {
+            "N": "12.00"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "c3093b22-51c4-4130-864a-c1f7a8bc87fc"
+          },
+          "player": {
+            "S": "Kirby Puckett"
+          },
+          "card_name": {
+            "S": "Kirby Puckett 1985 Topps #536 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "7.75"
+          },
+          "number_of_sales": {
+            "N": "58"
+          },
+          "total_sales_amount": {
+            "N": "393.98"
+          },
+          "price_change_percent": {
+            "N": "-17.73"
+          },
+          "average_price": {
+            "N": "6.79"
+          },
+          "volume_change_percent": {
+            "N": "23.40"
+          },
+          "price_change_amount": {
+            "N": "-1.67"
+          },
+          "max_sale_price": {
+            "N": "22.04"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "83ed481f-de4f-4ba0-a749-c56f8e06a06d"
+          },
+          "player": {
+            "S": "Bo Jackson"
+          },
+          "card_name": {
+            "S": "Bo Jackson 1988 Topps #327 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "10.00"
+          },
+          "number_of_sales": {
+            "N": "59"
+          },
+          "total_sales_amount": {
+            "N": "760.16"
+          },
+          "price_change_percent": {
+            "N": "-17.76"
+          },
+          "average_price": {
+            "N": "12.88"
+          },
+          "volume_change_percent": {
+            "N": "3.51"
+          },
+          "price_change_amount": {
+            "N": "-2.16"
+          },
+          "max_sale_price": {
+            "N": "30.00"
+          },
+          "min_sale_price": {
+            "N": "6.99"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "a18c5e52-5658-48d8-9312-b22eb9a0363b"
+          },
+          "player": {
+            "S": "JT Quinn"
+          },
+          "card_name": {
+            "S": "JT Quinn 2025 Bowman Draft #CPA-JQ Chrome Prospect Auto (1st)"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "4.94"
+          },
+          "number_of_sales": {
+            "N": "30"
+          },
+          "total_sales_amount": {
+            "N": "159.74"
+          },
+          "price_change_percent": {
+            "N": "-17.84"
+          },
+          "average_price": {
+            "N": "5.32"
+          },
+          "volume_change_percent": {
+            "N": "42.86"
+          },
+          "price_change_amount": {
+            "N": "-1.07"
+          },
+          "max_sale_price": {
+            "N": "13.50"
+          },
+          "min_sale_price": {
+            "N": "1.25"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "aead68ae-2ce6-4939-88d5-315c67c9af63"
+          },
+          "player": {
+            "S": "Junior Caminero"
+          },
+          "card_name": {
+            "S": "Junior Caminero 2024 Topps Chrome #213 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "1.59"
+          },
+          "number_of_sales": {
+            "N": "32"
+          },
+          "total_sales_amount": {
+            "N": "64.56"
+          },
+          "price_change_percent": {
+            "N": "-17.85"
+          },
+          "average_price": {
+            "N": "2.02"
+          },
+          "volume_change_percent": {
+            "N": "77.78"
+          },
+          "price_change_amount": {
+            "N": "-0.35"
+          },
+          "max_sale_price": {
+            "N": "3.50"
+          },
+          "min_sale_price": {
+            "N": "1.10"
+          },
+          "last_sale_date": {
+            "S": "02/15/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "ee8fbe64-a713-41a4-8e49-8604c7427f36"
+          },
+          "player": {
+            "S": "Sam Darnold"
+          },
+          "card_name": {
+            "S": "Sam Darnold 2018 Donruss #301 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "10.25"
+          },
+          "number_of_sales": {
+            "N": "107"
+          },
+          "total_sales_amount": {
+            "N": "1221.66"
+          },
+          "price_change_percent": {
+            "N": "-17.89"
+          },
+          "average_price": {
+            "N": "11.42"
+          },
+          "volume_change_percent": {
+            "N": "-51.36"
+          },
+          "price_change_amount": {
+            "N": "-2.23"
+          },
+          "max_sale_price": {
+            "N": "20.50"
+          },
+          "min_sale_price": {
+            "N": "2.04"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "b9b85ad6-15e0-49de-bf78-f2ee3bb50745"
+          },
+          "player": {
+            "S": "Spearow"
+          },
+          "card_name": {
+            "S": "Spearow 2025 Mega Evolution #151/132 Illustration Rare"
+          },
+          "grade": {
+            "S": "Raw TCG (Near Mint)"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "4.50"
+          },
+          "number_of_sales": {
+            "N": "39"
+          },
+          "total_sales_amount": {
+            "N": "171.73"
+          },
+          "price_change_percent": {
+            "N": "-17.93"
+          },
+          "average_price": {
+            "N": "4.40"
+          },
+          "volume_change_percent": {
+            "N": "18.18"
+          },
+          "price_change_amount": {
+            "N": "-0.98"
+          },
+          "max_sale_price": {
+            "N": "10.72"
+          },
+          "min_sale_price": {
+            "N": "2.00"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "756ea172-d307-4f01-80f4-e36d0f41d68e"
+          },
+          "player": {
+            "S": "Seth Hernandez"
+          },
+          "card_name": {
+            "S": "Seth Hernandez 2025 Bowman Draft Mega Box #BDC-25 Chrome (1st)"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "5.50"
+          },
+          "number_of_sales": {
+            "N": "42"
+          },
+          "total_sales_amount": {
+            "N": "223.49"
+          },
+          "price_change_percent": {
+            "N": "-17.98"
+          },
+          "average_price": {
+            "N": "5.32"
+          },
+          "volume_change_percent": {
+            "N": "23.53"
+          },
+          "price_change_amount": {
+            "N": "-1.21"
+          },
+          "max_sale_price": {
+            "N": "10.50"
+          },
+          "min_sale_price": {
+            "N": "2.25"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "25a2aedf-d4fe-4400-bb95-1cbce575baf7"
+          },
+          "player": {
+            "S": "Derik Queen"
+          },
+          "card_name": {
+            "S": "Derik Queen 2025 Topps Chrome #263 X-Fractor"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "7.38"
+          },
+          "number_of_sales": {
+            "N": "74"
+          },
+          "total_sales_amount": {
+            "N": "580.80"
+          },
+          "price_change_percent": {
+            "N": "-18.06"
+          },
+          "average_price": {
+            "N": "7.85"
+          },
+          "volume_change_percent": {
+            "N": "-50.34"
+          },
+          "price_change_amount": {
+            "N": "-1.63"
+          },
+          "max_sale_price": {
+            "N": "16.00"
+          },
+          "min_sale_price": {
+            "N": "1.76"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "0325ea81-7259-4c26-99e6-f9756dc49dc8"
+          },
+          "player": {
+            "S": "Drake Maye"
+          },
+          "card_name": {
+            "S": "Drake Maye 2024 Illusions #59 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "1.78"
+          },
+          "number_of_sales": {
+            "N": "51"
+          },
+          "total_sales_amount": {
+            "N": "183.93"
+          },
+          "price_change_percent": {
+            "N": "-18.30"
+          },
+          "average_price": {
+            "N": "3.61"
+          },
+          "volume_change_percent": {
+            "N": "-68.90"
+          },
+          "price_change_amount": {
+            "N": "-0.40"
+          },
+          "max_sale_price": {
+            "N": "20.00"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "c48f7cfa-e893-4d79-8c0b-b8045aa38286"
+          },
+          "player": {
+            "S": "Michael Jordan"
+          },
+          "card_name": {
+            "S": "Michael Jordan 1991 Fleer #2 Pro-Visions"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "5.05"
+          },
+          "number_of_sales": {
+            "N": "40"
+          },
+          "total_sales_amount": {
+            "N": "306.39"
+          },
+          "price_change_percent": {
+            "N": "-18.35"
+          },
+          "average_price": {
+            "N": "7.66"
+          },
+          "volume_change_percent": {
+            "N": "17.65"
+          },
+          "price_change_amount": {
+            "N": "-1.14"
+          },
+          "max_sale_price": {
+            "N": "20.50"
+          },
+          "min_sale_price": {
+            "N": "2.75"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "39539959-35fa-45be-a6b5-1d6afead502a"
+          },
+          "player": {
+            "S": "Michael Jordan"
+          },
+          "card_name": {
+            "S": "Michael Jordan 1991 Fleer #29 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "3.10"
+          },
+          "number_of_sales": {
+            "N": "41"
+          },
+          "total_sales_amount": {
+            "N": "147.67"
+          },
+          "price_change_percent": {
+            "N": "-18.37"
+          },
+          "average_price": {
+            "N": "3.60"
+          },
+          "volume_change_percent": {
+            "N": "32.26"
+          },
+          "price_change_amount": {
+            "N": "-0.70"
+          },
+          "max_sale_price": {
+            "N": "18.75"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    }
+  ]
+}

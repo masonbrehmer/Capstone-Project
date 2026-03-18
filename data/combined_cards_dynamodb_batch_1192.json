@@ -1,0 +1,1279 @@
+{
+  "sports-card-capstone-card-data": [
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "d074c15c-6257-4324-bb92-891e77a6845c"
+          },
+          "player": {
+            "S": "Jaxson Dart"
+          },
+          "card_name": {
+            "S": "Jaxson Dart 2025 Prizm #332 Silver"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "240.00"
+          },
+          "number_of_sales": {
+            "N": "47"
+          },
+          "total_sales_amount": {
+            "N": "10689.13"
+          },
+          "price_change_percent": {
+            "N": "2.91"
+          },
+          "average_price": {
+            "N": "227.43"
+          },
+          "volume_change_percent": {
+            "N": "42.42"
+          },
+          "price_change_amount": {
+            "N": "6.78"
+          },
+          "max_sale_price": {
+            "N": "299.99"
+          },
+          "min_sale_price": {
+            "N": "84.00"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "e2fe76a0-409a-4ea4-b8ba-1b2f6f77cde7"
+          },
+          "player": {
+            "S": "Victor Wembanyama"
+          },
+          "card_name": {
+            "S": "Victor Wembanyama 2023 Revolution #104 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "9.13"
+          },
+          "number_of_sales": {
+            "N": "37"
+          },
+          "total_sales_amount": {
+            "N": "393.90"
+          },
+          "price_change_percent": {
+            "N": "2.82"
+          },
+          "average_price": {
+            "N": "10.65"
+          },
+          "volume_change_percent": {
+            "N": "-45.59"
+          },
+          "price_change_amount": {
+            "N": "0.25"
+          },
+          "max_sale_price": {
+            "N": "22.50"
+          },
+          "min_sale_price": {
+            "N": "3.25"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "abcd9ed4-c4e7-460c-b678-fa738733542c"
+          },
+          "player": {
+            "S": "Ken Griffey Jr."
+          },
+          "card_name": {
+            "S": "Ken Griffey Jr. 1995 Pinnacle #128 Base"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "47.16"
+          },
+          "number_of_sales": {
+            "N": "39"
+          },
+          "total_sales_amount": {
+            "N": "1744.97"
+          },
+          "price_change_percent": {
+            "N": "2.76"
+          },
+          "average_price": {
+            "N": "44.74"
+          },
+          "volume_change_percent": {
+            "N": "-18.75"
+          },
+          "price_change_amount": {
+            "N": "1.27"
+          },
+          "max_sale_price": {
+            "N": "78.00"
+          },
+          "min_sale_price": {
+            "N": "17.50"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "4757631a-2e4f-4acf-bce8-7ecd22cbf2c1"
+          },
+          "player": {
+            "S": "Umbreon ex"
+          },
+          "card_name": {
+            "S": "Umbreon ex 2024 Japanese Scarlet & Violet: Terastal Fest ex #217/187 Special Art Rare"
+          },
+          "grade": {
+            "S": "PSA 10"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "500.99"
+          },
+          "number_of_sales": {
+            "N": "54"
+          },
+          "total_sales_amount": {
+            "N": "26239.29"
+          },
+          "price_change_percent": {
+            "N": "2.71"
+          },
+          "average_price": {
+            "N": "485.91"
+          },
+          "volume_change_percent": {
+            "N": "45.95"
+          },
+          "price_change_amount": {
+            "N": "13.21"
+          },
+          "max_sale_price": {
+            "N": "600.00"
+          },
+          "min_sale_price": {
+            "N": "400.00"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "e9148a35-1446-4dc8-91ca-ed68ace95bbc"
+          },
+          "player": {
+            "S": "Lillie's Determination"
+          },
+          "card_name": {
+            "S": "Lillie's Determination 2025 Mega Evolution #169/132 Ultra Rare (Full Art)"
+          },
+          "grade": {
+            "S": "Raw TCG (Near Mint)"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "20.00"
+          },
+          "number_of_sales": {
+            "N": "32"
+          },
+          "total_sales_amount": {
+            "N": "626.56"
+          },
+          "price_change_percent": {
+            "N": "2.54"
+          },
+          "average_price": {
+            "N": "19.58"
+          },
+          "volume_change_percent": {
+            "N": "3.23"
+          },
+          "price_change_amount": {
+            "N": "0.50"
+          },
+          "max_sale_price": {
+            "N": "28.99"
+          },
+          "min_sale_price": {
+            "N": "11.25"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "d26d0900-34c9-44ca-9d1b-80c877ac6c34"
+          },
+          "player": {
+            "S": "Misty's Lapras"
+          },
+          "card_name": {
+            "S": "Misty's Lapras 2025 Scarlet & Violet: Destined Rivals #194/182 Illustration Rare"
+          },
+          "grade": {
+            "S": "Raw TCG (Near Mint)"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "21.34"
+          },
+          "number_of_sales": {
+            "N": "38"
+          },
+          "total_sales_amount": {
+            "N": "831.23"
+          },
+          "price_change_percent": {
+            "N": "2.54"
+          },
+          "average_price": {
+            "N": "21.87"
+          },
+          "volume_change_percent": {
+            "N": "5.56"
+          },
+          "price_change_amount": {
+            "N": "0.53"
+          },
+          "max_sale_price": {
+            "N": "36.99"
+          },
+          "min_sale_price": {
+            "N": "11.38"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "443140bb-6aae-4b25-a9d4-2c482b2def22"
+          },
+          "player": {
+            "S": "CeeDee Lamb"
+          },
+          "card_name": {
+            "S": "CeeDee Lamb 2025 Donruss #9 Downtown"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "370.16"
+          },
+          "number_of_sales": {
+            "N": "33"
+          },
+          "total_sales_amount": {
+            "N": "11938.49"
+          },
+          "price_change_percent": {
+            "N": "2.49"
+          },
+          "average_price": {
+            "N": "361.77"
+          },
+          "volume_change_percent": {
+            "N": "73.68"
+          },
+          "price_change_amount": {
+            "N": "9.00"
+          },
+          "max_sale_price": {
+            "N": "449.00"
+          },
+          "min_sale_price": {
+            "N": "280.00"
+          },
+          "last_sale_date": {
+            "S": "02/15/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "d756c161-95b8-4757-b845-01bb3a0c512c"
+          },
+          "player": {
+            "S": "Kon Knueppel"
+          },
+          "card_name": {
+            "S": "Kon Knueppel 2025 Topps Chrome #254 Refractor"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "46.50"
+          },
+          "number_of_sales": {
+            "N": "138"
+          },
+          "total_sales_amount": {
+            "N": "6380.02"
+          },
+          "price_change_percent": {
+            "N": "2.19"
+          },
+          "average_price": {
+            "N": "46.23"
+          },
+          "volume_change_percent": {
+            "N": "6.15"
+          },
+          "price_change_amount": {
+            "N": "1.00"
+          },
+          "max_sale_price": {
+            "N": "79.99"
+          },
+          "min_sale_price": {
+            "N": "16.50"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "109c8af8-6598-4a13-a190-1bfb1f9c3c35"
+          },
+          "player": {
+            "S": "Blastoise"
+          },
+          "card_name": {
+            "S": "Blastoise 2021 Celebrations: Classic Collection #2 Holo"
+          },
+          "grade": {
+            "S": "PSA 10"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "121.25"
+          },
+          "number_of_sales": {
+            "N": "46"
+          },
+          "total_sales_amount": {
+            "N": "5227.16"
+          },
+          "price_change_percent": {
+            "N": "2.15"
+          },
+          "average_price": {
+            "N": "113.63"
+          },
+          "volume_change_percent": {
+            "N": "43.75"
+          },
+          "price_change_amount": {
+            "N": "2.55"
+          },
+          "max_sale_price": {
+            "N": "159.95"
+          },
+          "min_sale_price": {
+            "N": "95.00"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "87a44a6b-2cf6-43ee-8042-efaf7f3d3da7"
+          },
+          "player": {
+            "S": "Jamie Arnold"
+          },
+          "card_name": {
+            "S": "Jamie Arnold 2025 Bowman Draft #CPA-JA Chrome Prospect Auto (1st)"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "48.00"
+          },
+          "number_of_sales": {
+            "N": "50"
+          },
+          "total_sales_amount": {
+            "N": "2359.52"
+          },
+          "price_change_percent": {
+            "N": "2.09"
+          },
+          "average_price": {
+            "N": "47.19"
+          },
+          "volume_change_percent": {
+            "N": "108.33"
+          },
+          "price_change_amount": {
+            "N": "0.98"
+          },
+          "max_sale_price": {
+            "N": "64.00"
+          },
+          "min_sale_price": {
+            "N": "32.00"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "66356a8c-9c00-4b5c-9835-60c9985b88af"
+          },
+          "player": {
+            "S": "Nick Kurtz"
+          },
+          "card_name": {
+            "S": "Nick Kurtz 2025 Topps Chrome Update #USC178 Refractor"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "12.75"
+          },
+          "number_of_sales": {
+            "N": "35"
+          },
+          "total_sales_amount": {
+            "N": "469.95"
+          },
+          "price_change_percent": {
+            "N": "2.02"
+          },
+          "average_price": {
+            "N": "13.43"
+          },
+          "volume_change_percent": {
+            "N": "-10.26"
+          },
+          "price_change_amount": {
+            "N": "0.25"
+          },
+          "max_sale_price": {
+            "N": "24.50"
+          },
+          "min_sale_price": {
+            "N": "2.75"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "33f23fdf-42d5-4042-ab04-7ad03b472c8e"
+          },
+          "player": {
+            "S": "Cam Ward"
+          },
+          "card_name": {
+            "S": "Cam Ward 2025 Donruss #350 Optic Preview - Pink"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "4.88"
+          },
+          "number_of_sales": {
+            "N": "60"
+          },
+          "total_sales_amount": {
+            "N": "289.64"
+          },
+          "price_change_percent": {
+            "N": "1.99"
+          },
+          "average_price": {
+            "N": "4.83"
+          },
+          "volume_change_percent": {
+            "N": "15.38"
+          },
+          "price_change_amount": {
+            "N": "0.09"
+          },
+          "max_sale_price": {
+            "N": "10.50"
+          },
+          "min_sale_price": {
+            "N": "0.99"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "a743bb6a-2372-4c2d-8fa7-6b274caa24f8"
+          },
+          "player": {
+            "S": "Mew ex"
+          },
+          "card_name": {
+            "S": "Mew ex 2023 Japanese Scarlet & Violet: Shiny Treasure ex #347/190 Special Art Rare"
+          },
+          "grade": {
+            "S": "PSA 10"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "543.75"
+          },
+          "number_of_sales": {
+            "N": "31"
+          },
+          "total_sales_amount": {
+            "N": "16754.42"
+          },
+          "price_change_percent": {
+            "N": "1.95"
+          },
+          "average_price": {
+            "N": "540.47"
+          },
+          "volume_change_percent": {
+            "N": "-22.50"
+          },
+          "price_change_amount": {
+            "N": "10.41"
+          },
+          "max_sale_price": {
+            "N": "640.00"
+          },
+          "min_sale_price": {
+            "N": "415.00"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "da0b4c6d-740b-40ed-b62f-a97f113d78d2"
+          },
+          "player": {
+            "S": "Michael Jordan"
+          },
+          "card_name": {
+            "S": "Michael Jordan 1992 Upper Deck #506 Fanimation"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "6.20"
+          },
+          "number_of_sales": {
+            "N": "80"
+          },
+          "total_sales_amount": {
+            "N": "441.54"
+          },
+          "price_change_percent": {
+            "N": "1.95"
+          },
+          "average_price": {
+            "N": "5.52"
+          },
+          "volume_change_percent": {
+            "N": "135.29"
+          },
+          "price_change_amount": {
+            "N": "0.12"
+          },
+          "max_sale_price": {
+            "N": "23.50"
+          },
+          "min_sale_price": {
+            "N": "1.99"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "13cdaae9-61d9-44ae-8e45-108bb96cf9ec"
+          },
+          "player": {
+            "S": "Omarion Hampton"
+          },
+          "card_name": {
+            "S": "Omarion Hampton 2025 Donruss #16 Downtown"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "340.14"
+          },
+          "number_of_sales": {
+            "N": "31"
+          },
+          "total_sales_amount": {
+            "N": "9541.28"
+          },
+          "price_change_percent": {
+            "N": "1.84"
+          },
+          "average_price": {
+            "N": "307.78"
+          },
+          "volume_change_percent": {
+            "N": "14.81"
+          },
+          "price_change_amount": {
+            "N": "6.14"
+          },
+          "max_sale_price": {
+            "N": "371.00"
+          },
+          "min_sale_price": {
+            "N": "140.00"
+          },
+          "last_sale_date": {
+            "S": "02/15/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "0cd7e74a-3a10-4fa5-83ed-2dcf92894c47"
+          },
+          "player": {
+            "S": "Kyson Witherspoon"
+          },
+          "card_name": {
+            "S": "Kyson Witherspoon 2025 Bowman Draft #CPA-KW Chrome Prospect Auto (1st)"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "41.00"
+          },
+          "number_of_sales": {
+            "N": "32"
+          },
+          "total_sales_amount": {
+            "N": "1216.21"
+          },
+          "price_change_percent": {
+            "N": "1.78"
+          },
+          "average_price": {
+            "N": "38.01"
+          },
+          "volume_change_percent": {
+            "N": "128.57"
+          },
+          "price_change_amount": {
+            "N": "0.72"
+          },
+          "max_sale_price": {
+            "N": "55.77"
+          },
+          "min_sale_price": {
+            "N": "19.50"
+          },
+          "last_sale_date": {
+            "S": "02/15/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "0c069887-3745-4eac-a125-9fb5448972ab"
+          },
+          "player": {
+            "S": "Billy Ripken"
+          },
+          "card_name": {
+            "S": "Billy Ripken 1989 Fleer #616 Base (FF Error)"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "75.50"
+          },
+          "number_of_sales": {
+            "N": "39"
+          },
+          "total_sales_amount": {
+            "N": "3078.84"
+          },
+          "price_change_percent": {
+            "N": "1.68"
+          },
+          "average_price": {
+            "N": "78.94"
+          },
+          "volume_change_percent": {
+            "N": "-2.50"
+          },
+          "price_change_amount": {
+            "N": "1.25"
+          },
+          "max_sale_price": {
+            "N": "118.80"
+          },
+          "min_sale_price": {
+            "N": "40.00"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "067ebdb3-46aa-4b74-9664-ec7d171d0cd4"
+          },
+          "player": {
+            "S": "Kevin McGonigle"
+          },
+          "card_name": {
+            "S": "Kevin McGonigle 2025 Bowman Mega Box #BCP-79 Chrome Prospects (1st)"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "10.67"
+          },
+          "number_of_sales": {
+            "N": "56"
+          },
+          "total_sales_amount": {
+            "N": "658.00"
+          },
+          "price_change_percent": {
+            "N": "1.64"
+          },
+          "average_price": {
+            "N": "11.75"
+          },
+          "volume_change_percent": {
+            "N": "27.27"
+          },
+          "price_change_amount": {
+            "N": "0.17"
+          },
+          "max_sale_price": {
+            "N": "17.99"
+          },
+          "min_sale_price": {
+            "N": "4.95"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "884c7909-2868-4be1-b3a8-045acff4ea83"
+          },
+          "player": {
+            "S": "Ivysaur"
+          },
+          "card_name": {
+            "S": "Ivysaur 2025 Mega Evolution #134/132 Illustration Rare"
+          },
+          "grade": {
+            "S": "Raw TCG (Near Mint)"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "17.49"
+          },
+          "number_of_sales": {
+            "N": "45"
+          },
+          "total_sales_amount": {
+            "N": "783.57"
+          },
+          "price_change_percent": {
+            "N": "1.45"
+          },
+          "average_price": {
+            "N": "17.41"
+          },
+          "volume_change_percent": {
+            "N": "-8.16"
+          },
+          "price_change_amount": {
+            "N": "0.25"
+          },
+          "max_sale_price": {
+            "N": "29.99"
+          },
+          "min_sale_price": {
+            "N": "9.50"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "b313fe2e-0f1f-40ed-8c4f-fed5be75aaba"
+          },
+          "player": {
+            "S": "Mega Heracross ex"
+          },
+          "card_name": {
+            "S": "Mega Heracross ex 2025 Mega Evolution: Phantasmal Flames #108/94 Ultra Rare (Full Art)"
+          },
+          "grade": {
+            "S": "Raw TCG (Near Mint)"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "4.32"
+          },
+          "number_of_sales": {
+            "N": "47"
+          },
+          "total_sales_amount": {
+            "N": "198.87"
+          },
+          "price_change_percent": {
+            "N": "1.38"
+          },
+          "average_price": {
+            "N": "4.23"
+          },
+          "volume_change_percent": {
+            "N": "95.83"
+          },
+          "price_change_amount": {
+            "N": "0.06"
+          },
+          "max_sale_price": {
+            "N": "9.54"
+          },
+          "min_sale_price": {
+            "N": "2.00"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "5a8c9d9d-4aed-41ad-be8e-95195717c564"
+          },
+          "player": {
+            "S": "Mega Gengar ex"
+          },
+          "card_name": {
+            "S": "Mega Gengar ex 2025 Japanese Mega: Mega Dream ex #230/193 Mega Attack Rare"
+          },
+          "grade": {
+            "S": "PSA 10"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "97.17"
+          },
+          "number_of_sales": {
+            "N": "65"
+          },
+          "total_sales_amount": {
+            "N": "6263.75"
+          },
+          "price_change_percent": {
+            "N": "1.33"
+          },
+          "average_price": {
+            "N": "96.37"
+          },
+          "volume_change_percent": {
+            "N": "75.68"
+          },
+          "price_change_amount": {
+            "N": "1.28"
+          },
+          "max_sale_price": {
+            "N": "120.50"
+          },
+          "min_sale_price": {
+            "N": "79.00"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "031b10ec-7c47-4b18-9d06-0853d12f5143"
+          },
+          "player": {
+            "S": "Ashton Jeanty"
+          },
+          "card_name": {
+            "S": "Ashton Jeanty 2025 Prizm #315 White Disco"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "15.17"
+          },
+          "number_of_sales": {
+            "N": "34"
+          },
+          "total_sales_amount": {
+            "N": "483.23"
+          },
+          "price_change_percent": {
+            "N": "1.11"
+          },
+          "average_price": {
+            "N": "14.21"
+          },
+          "volume_change_percent": {
+            "N": "9.68"
+          },
+          "price_change_amount": {
+            "N": "0.17"
+          },
+          "max_sale_price": {
+            "N": "20.00"
+          },
+          "min_sale_price": {
+            "N": "6.50"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "1fbd6f3a-2d0f-4cd7-b2f1-569497a0beab"
+          },
+          "player": {
+            "S": "Fernando Mendoza"
+          },
+          "card_name": {
+            "S": "Fernando Mendoza 2025 Bowman U Now #26 Base (Print Run: 2,475)"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "10.75"
+          },
+          "number_of_sales": {
+            "N": "40"
+          },
+          "total_sales_amount": {
+            "N": "473.32"
+          },
+          "price_change_percent": {
+            "N": "1.02"
+          },
+          "average_price": {
+            "N": "11.83"
+          },
+          "volume_change_percent": {
+            "N": "60.00"
+          },
+          "price_change_amount": {
+            "N": "0.11"
+          },
+          "max_sale_price": {
+            "N": "29.99"
+          },
+          "min_sale_price": {
+            "N": "4.88"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "c6017a56-7303-4f69-9d52-8296dfe1011e"
+          },
+          "player": {
+            "S": "Shohei Ohtani"
+          },
+          "card_name": {
+            "S": "Shohei Ohtani 2018 Topps Chrome #150 Base (Pitching)"
+          },
+          "grade": {
+            "S": "PSA 10"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "716.75"
+          },
+          "number_of_sales": {
+            "N": "31"
+          },
+          "total_sales_amount": {
+            "N": "21856.77"
+          },
+          "price_change_percent": {
+            "N": "0.95"
+          },
+          "average_price": {
+            "N": "705.06"
+          },
+          "volume_change_percent": {
+            "N": "-3.13"
+          },
+          "price_change_amount": {
+            "N": "6.75"
+          },
+          "max_sale_price": {
+            "N": "818.00"
+          },
+          "min_sale_price": {
+            "N": "475.00"
+          },
+          "last_sale_date": {
+            "S": "02/16/2026"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "cardId": {
+            "S": "1bfd938d-33d2-4c01-a81f-2bf6bf603597"
+          },
+          "player": {
+            "S": "Konnor Griffin"
+          },
+          "card_name": {
+            "S": "Konnor Griffin 2024 Bowman Draft #BDC-22 Chrome (1st)"
+          },
+          "grade": {
+            "S": "Raw"
+          },
+          "date": {
+            "S": "20260217"
+          },
+          "price": {
+            "N": "21.27"
+          },
+          "number_of_sales": {
+            "N": "97"
+          },
+          "total_sales_amount": {
+            "N": "2067.55"
+          },
+          "price_change_percent": {
+            "N": "0.90"
+          },
+          "average_price": {
+            "N": "21.31"
+          },
+          "volume_change_percent": {
+            "N": "90.20"
+          },
+          "price_change_amount": {
+            "N": "0.19"
+          },
+          "max_sale_price": {
+            "N": "37.00"
+          },
+          "min_sale_price": {
+            "N": "10.00"
+          },
+          "last_sale_date": {
+            "S": "02/15/2026"
+          }
+        }
+      }
+    }
+  ]
+}
